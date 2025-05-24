@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    fornt-family: Arial-Serif;
+    background-image: uri("../ASSETS/Background.jpg");
+    margin: 0;
+    padding: 20ps;
+}
+.backg {
+    background-image: url("..ASSETS/Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-colums: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.grid-item{
+    background-color: rgb(118, 115, 115);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+    flex-ditection: column;
+    align-items: centers;
+    justify-content: centers;
+    padding: 12px;
+}
+.grid-item img{
+    width: 200px;
+    heaight: 200px;
+    display: block;
+    border-radius: 100px;
+    }
+    .description{
+        padding: 15px;
+        front-size: 16px;
+        front-weight: bold;
+        color: black;
+    }
+    .welcome{
+        margin-left: 550px;
+        margin-rigth: 550px;
+    }
+    .img{
+        display: block;
+        gap: 20px;
+        width: 350px;
+        margin-right: 900px;
+        margin-left: 900px;
+        background-color: aqua;
+        border-radius: 8px;
+        flex-direction: column;
+        box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+    }
+    
